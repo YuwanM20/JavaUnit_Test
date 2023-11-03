@@ -7,10 +7,9 @@ Halo Namaku Yuwandana dari prodif TIF BWS saya akan memberitahukan tutorial mena
 
 # berinkut langkah-langkahnya #
 
-1. Mengimpor Framework Pengujian: Pastikan Anda telah mengimpor framework pengujian yang sesuai. JUnit adalah salah satu framework pengujian unit yang populer di Java. Anda dapat menambahkannya ke proyek Anda menggunakan Maven atau Gradle.
-
-Jika Anda menggunakan Maven, Anda dapat menambahkan dependensi JUnit ke dalam berkas pom.xml:
-2. Membuat Kelas Unit Test: Buat kelas yang akan berisi unit test Anda. Kelas ini biasanya akan memiliki metode-metode pengujian dengan anotasi @Test. Contoh:
+1. Mengimpor Framework Pengujian: Pastikan Anda telah mengimpor framework pengujian yang sesuai. JUnit adalah salah satu framework pengujian unit yang populer di Java. Anda dapat menambahkannya ke proyek Anda menggunakan Maven atau Gradle. Jika Anda menggunakan Maven, Anda dapat menambahkan dependensi JUnit ke dalam berkas pom.xml:
+   
+3. Membuat Kelas Unit Test: Buat kelas yang akan berisi unit test Anda. Kelas ini biasanya akan memiliki metode-metode pengujian dengan anotasi @Test. Contoh:
 
   import org.junit.Test;
 import static org.junit.Assert.*;
